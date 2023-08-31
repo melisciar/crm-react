@@ -1,4 +1,4 @@
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet, NavLink } from "react-router-dom";
 
 function Layout() {
   return (
@@ -11,7 +11,7 @@ function Layout() {
           <NavLink
             className={({ isActive }) =>
               `${
-                isActive ? 'text-blue-300' : 'text-white'
+                isActive ? "text-blue-300" : "text-white"
               } text-2xl block mt-2 hover:text-blue-300 text-white`
             }
             to="/"
@@ -21,7 +21,7 @@ function Layout() {
           <NavLink
             className={({ isActive }) =>
               `${
-                isActive ? 'text-blue-300' : 'text-white'
+                isActive ? "text-blue-300" : "text-white"
               } text-2xl block mt-2 hover:text-blue-300 text-white`
             }
             to="/clientes/nuevo"
